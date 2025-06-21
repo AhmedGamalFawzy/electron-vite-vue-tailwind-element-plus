@@ -13,7 +13,7 @@ const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
     and
     <span class="ts">TypeScript</span>
   </div>
-  <p class="tip">Please try pressing <code>F12</code> to open the devTools</p>
+  <p class="tip">Please try pressing <code>F12</code> to open the devTool</p>
   <div class="actions">
     <div class="action">
       <a href="https://electron-vite.org/" target="_blank" rel="noreferrer">Documentation</a>
