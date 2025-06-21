@@ -1,6 +1,2 @@
-// Import variables (must be first for @use in other files)
-@use 'variables' as *;
-
-// Import SCSS components
-@forward '_base';
-@forward '_app';
+@use 'base';
+@use 'app';

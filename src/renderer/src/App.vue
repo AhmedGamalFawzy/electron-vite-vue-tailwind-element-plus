@@ -22,5 +22,13 @@ const ipcHandle = (): void => window.electron.ipcRenderer.send('ping');
       <a target="_blank" rel="noreferrer" @click="ipcHandle">Send IPC</a>
     </div>
   </div>
+  <div class="mt-5">
+    <el-button plain>Plain</el-button>
+    <el-button type="primary">Primary</el-button>
+    <el-button type="success">Success</el-button>
+    <el-button type="warning">Warning</el-button>
+    <el-button type="danger">Danger</el-button>
+    <el-button type="info">Info</el-button>
+  </div>
   <Versions />
 </template>

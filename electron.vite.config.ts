@@ -17,14 +17,6 @@ export default defineConfig({
     resolve: {
       alias: {
         '@renderer': resolve('src/renderer/src'),
-        '@styles': resolve('src/renderer/src/assets/styles'),
-      },
-    },
-    css: {
-      preprocessorOptions: {
-        scss: {
-          includePaths: [resolve('src/renderer/src/assets/styles')],
-        },
       },
     },
     plugins: [
