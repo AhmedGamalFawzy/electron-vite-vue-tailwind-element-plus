@@ -1,9 +1,0 @@
-/*
-This file is the main entry point for all styles.
-It orchestrates the loading of TailwindCSS and our own SCSS modules.
-You should not write CSS directly in this file.
-Your custom styles should go into the .scss files in the /scss directory.
-*/
-@import 'tailwindcss';
-@import './scss/_base.scss';
-@import './scss/_app.scss';
