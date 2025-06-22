@@ -6,6 +6,7 @@
 ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=fff)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=fff)
 ![Element Plus](https://img.shields.io/badge/Element_Plus-409EFF?logo=element-plus&logoColor=fff)
+![Sass](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=fff)
 
 This is a boilerplate project for building cross-platform desktop applications using [Electron](https://www.electronjs.org/), [Vite](https://vitejs.dev/), [Vue 3](https://vuejs.org/), [Tailwind CSS](https://tailwindcss.com/), and [Element Plus](https://element-plus.org/).
 
@@ -16,6 +17,7 @@ This is a boilerplate project for building cross-platform desktop applications u
 - 🔷 **TypeScript** - For type-safe code.
 - 📦 **Electron** - Build cross-platform desktop apps with JavaScript, HTML, and CSS.
 - 🎨 **Tailwind CSS** - A utility-first CSS framework for rapid UI development.
+- 🎨 **SCSS** - A popular CSS pre-processor.
 - 🧩 **Element Plus** - A Vue 3 based component library for developers, designers, and product managers.
 - 🔧 **Electron Toolkit** - A set of tools to simplify Electron development.
 - 🔄 **Electron Updater** - Support for automatic updates.
