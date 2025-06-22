@@ -1,0 +1,8 @@
+#app {
+  .el-button + .el-button {
+    margin-left: 18px;
+  }
+  .el-button--warning {
+    --el-button-text-color: red;
+  }
+}

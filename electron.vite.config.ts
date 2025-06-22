@@ -19,14 +19,21 @@ export default defineConfig({
         '@renderer': resolve('src/renderer/src'),
       },
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "@renderer/assets/styles/element-plus/theme.scss" as *;`,
+        },
+      },
+    },
     plugins: [
       vue(),
       tailwindcss(),
       AutoImport({
-        resolvers: [ElementPlusResolver()],
+        resolvers: [ElementPlusResolver({ importStyle: 'sass' })],
       }),
       Components({
-        resolvers: [ElementPlusResolver()],
+        resolvers: [ElementPlusResolver({ importStyle: 'sass' })],
       }),
     ],
   },
