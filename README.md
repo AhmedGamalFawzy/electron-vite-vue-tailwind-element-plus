@@ -1,4 +1,4 @@
-# my-app
+# electron-vite-vue-tailwind-element-plus
 
 An Electron application with Vue and TypeScript
 
